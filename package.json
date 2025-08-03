@@ -1,0 +1,23 @@
+{
+  "name": "comp-apis",
+  "version": "0",
+  "description": "APIs for Competitions",
+  "main": "index.js",
+  "author": "Gavin Dhaliwal",
+  "license": "MIT",
+  "scripts": {
+    "start:apis": "cd services/apis && yarn start:local"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^7.0.4",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.3.0"
+  },
+  "dependencies": {
+    "cross-env-shell": "^7.0.3"
+  }
+}

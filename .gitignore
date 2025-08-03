@@ -1,0 +1,15 @@
+.vscode
+.idea
+assets/env
+
+dump.rdb
+app.yaml
+node_modules
+*.log
+.env
+serviceAccount.json
+package-lock.json
+.sentryclirc
+test-phone-numbers.json
+
+/services/**/notification-service.config.json
