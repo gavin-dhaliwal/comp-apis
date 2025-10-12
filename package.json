@@ -18,6 +18,7 @@
     "prettier": "^2.3.0"
   },
   "dependencies": {
+    "cookie-signature": "^1.2.2",
     "cross-env-shell": "^7.0.3"
   }
 }

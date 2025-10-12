@@ -1,4 +1,6 @@
+require("dotenv").config();
 const express = require("express");
+const cookieParser = require("cookie-parser");
 const app = express();
 const {
   loggingMiddleware,
@@ -7,9 +9,10 @@ const {
 
 const { PORT = 8080 } = process.env;
 
-const authRouter = require("./routers/auth.router");
+const authRouter = require("./routers/auth");
 
 app.use(express.json());
+app.use(cookieParser());
 
 // Apply logging middleware
 app.use(

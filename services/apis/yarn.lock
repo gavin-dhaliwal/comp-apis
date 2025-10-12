@@ -2,6 +2,82 @@
 # yarn lockfile v1
 
 
+"@supabase/auth-js@2.75.0":
+  version "2.75.0"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/@supabase%2fauth-js/-/auth-js-2.75.0.tgz#7566622e31134048457a72c3c1139cc6203ae252"
+  integrity sha512-J8TkeqCOMCV4KwGKVoxmEBuDdHRwoInML2vJilthOo7awVCro2SM+tOcpljORwuBQ1vHUtV62Leit+5wlxrNtw==
+  dependencies:
+    "@supabase/node-fetch" "2.6.15"
+
+"@supabase/functions-js@2.75.0":
+  version "2.75.0"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/@supabase%2ffunctions-js/-/functions-js-2.75.0.tgz#c11f0981cee257f9dbfa1ea841c2561f46afaf19"
+  integrity sha512-18yk07Moj/xtQ28zkqswxDavXC3vbOwt1hDuYM3/7xPnwwpKnsmPyZ7bQ5th4uqiJzQ135t74La9tuaxBR6e7w==
+  dependencies:
+    "@supabase/node-fetch" "2.6.15"
+
+"@supabase/node-fetch@2.6.15":
+  version "2.6.15"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/@supabase%2fnode-fetch/-/node-fetch-2.6.15.tgz#731271430e276983191930816303c44159e7226c"
+  integrity sha512-1ibVeYUacxWYi9i0cf5efil6adJ9WRyZBLivgjs+AUpewx1F3xPi7gLgaASI2SmIQxPoCEjAsLAzKPgMJVgOUQ==
+  dependencies:
+    whatwg-url "^5.0.0"
+
+"@supabase/postgrest-js@2.75.0":
+  version "2.75.0"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/@supabase%2fpostgrest-js/-/postgrest-js-2.75.0.tgz#4bcb213956a04d371ae6ccb0553d171cb4fe3ffe"
+  integrity sha512-YfBz4W/z7eYCFyuvHhfjOTTzRrQIvsMG2bVwJAKEVVUqGdzqfvyidXssLBG0Fqlql1zJFgtsPpK1n4meHrI7tg==
+  dependencies:
+    "@supabase/node-fetch" "2.6.15"
+
+"@supabase/realtime-js@2.75.0":
+  version "2.75.0"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/@supabase%2frealtime-js/-/realtime-js-2.75.0.tgz#9e2e0f78d082d581bedbe8f2408e11af32f544b8"
+  integrity sha512-B4Xxsf2NHd5cEnM6MGswOSPSsZKljkYXpvzKKmNxoUmNQOfB7D8HOa6NwHcUBSlxcjV+vIrYKcYXtavGJqeGrw==
+  dependencies:
+    "@supabase/node-fetch" "2.6.15"
+    "@types/phoenix" "^1.6.6"
+    "@types/ws" "^8.18.1"
+    ws "^8.18.2"
+
+"@supabase/storage-js@2.75.0":
+  version "2.75.0"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/@supabase%2fstorage-js/-/storage-js-2.75.0.tgz#63b7b16883c4b96152772fb192a68def9377dac1"
+  integrity sha512-wpJMYdfFDckDiHQaTpK+Ib14N/O2o0AAWWhguKvmmMurB6Unx17GGmYp5rrrqCTf8S1qq4IfIxTXxS4hzrUySg==
+  dependencies:
+    "@supabase/node-fetch" "2.6.15"
+
+"@supabase/supabase-js@^2.75.0":
+  version "2.75.0"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/@supabase%2fsupabase-js/-/supabase-js-2.75.0.tgz#ba28bde3ed0570f81a2b61b53de7875b64b90047"
+  integrity sha512-8UN/vATSgS2JFuJlMVr51L3eUDz+j1m7Ww63wlvHLKULzCDaVWYzvacCjBTLW/lX/vedI2LBI4Vg+01G9ufsJQ==
+  dependencies:
+    "@supabase/auth-js" "2.75.0"
+    "@supabase/functions-js" "2.75.0"
+    "@supabase/node-fetch" "2.6.15"
+    "@supabase/postgrest-js" "2.75.0"
+    "@supabase/realtime-js" "2.75.0"
+    "@supabase/storage-js" "2.75.0"
+
+"@types/node@*":
+  version "24.7.2"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/@types%2fnode/-/node-24.7.2.tgz#5adf66b6e2ac5cab1d10a2ad3682e359cb652f4a"
+  integrity sha512-/NbVmcGTP+lj5oa4yiYxxeBjRivKQ5Ns1eSZeB99ExsEQ6rX5XYU1Zy/gGxY/ilqtD4Etx9mKyrPxZRetiahhA==
+  dependencies:
+    undici-types "~7.14.0"
+
+"@types/phoenix@^1.6.6":
+  version "1.6.6"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/@types%2fphoenix/-/phoenix-1.6.6.tgz#3c1ab53fd5a23634b8e37ea72ccacbf07fbc7816"
+  integrity sha512-PIzZZlEppgrpoT2QgbnDU+MMzuR6BbCjllj0bM70lWoejMeNJAxCchxnv7J3XFkI8MpygtRpzXrIlmWUBclP5A==
+
+"@types/ws@^8.18.1":
+  version "8.18.1"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/@types%2fws/-/ws-8.18.1.tgz#48464e4bf2ddfd17db13d845467f6070ffea4aa9"
+  integrity sha512-ThVF6DCVhA8kUGy+aazFQ4kXQ7E1Ty7A3ypFOe0IcJV8O/M511G99AW24irKrW56Wt44yG9+ij8FaqoBGkuBXg==
+  dependencies:
+    "@types/node" "*"
+
 accepts@^2.0.0:
   version "2.0.0"
   resolved "https://dpduk-t-continuous-integration.appspot.com/accepts/-/accepts-2.0.0.tgz#bbcf4ba5075467f3f2131eab3cffc73c2f5d7895"
@@ -111,12 +187,25 @@ content-type@^1.0.5:
   resolved "https://dpduk-t-continuous-integration.appspot.com/content-type/-/content-type-1.0.5.tgz#8b773162656d1d1086784c8f23a54ce6d73d7918"
   integrity sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA==
 
+cookie-parser@^1.4.7:
+  version "1.4.7"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/cookie-parser/-/cookie-parser-1.4.7.tgz#e2125635dfd766888ffe90d60c286404fa0e7b26"
+  integrity sha512-nGUvgXnotP3BsjiLX2ypbQnWoGUPIIfHQNZkkC668ntrzGWEZVW70HDEB1qnNGMicPje6EttlIgzo51YSwNQGw==
+  dependencies:
+    cookie "0.7.2"
+    cookie-signature "1.0.6"
+
+cookie-signature@1.0.6:
+  version "1.0.6"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/cookie-signature/-/cookie-signature-1.0.6.tgz#e303a882b342cc3ee8ca513a79999734dab3ae2c"
+  integrity sha1-4wOogrNCzD7oylE6eZmXNNqzriw=
+
 cookie-signature@^1.2.1:
   version "1.2.2"
   resolved "https://dpduk-t-continuous-integration.appspot.com/cookie-signature/-/cookie-signature-1.2.2.tgz#57c7fc3cc293acab9fec54d73e15690ebe4a1793"
   integrity sha512-D76uU73ulSXrD1UXF4KE2TMxVVwhsnCgfAyTg9k8P6KGZjlXKrOLe4dJQKI3Bxi5wjesZoFXJWElNWBjPZMbhg==
 
-cookie@^0.7.1:
+cookie@0.7.2, cookie@^0.7.1:
   version "0.7.2"
   resolved "https://dpduk-t-continuous-integration.appspot.com/cookie/-/cookie-0.7.2.tgz#556369c472a2ba910f2979891b526b3436237ed7"
   integrity sha512-yki5XnKuf750l50uGTllt6kKILY4nQ1eNIQatoXEByZ5dWgnKqbnqmTrBE5B4N7lrMJKQ2ytWMiTO2o0v6Ew/w==
@@ -132,6 +221,11 @@ depd@2.0.0, depd@^2.0.0:
   version "2.0.0"
   resolved "https://dpduk-t-continuous-integration.appspot.com/depd/-/depd-2.0.0.tgz#b696163cc757560d09cf22cc8fad1571b79e76df"
   integrity sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==
+
+dotenv@^17.2.3:
+  version "17.2.3"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/dotenv/-/dotenv-17.2.3.tgz#ad995d6997f639b11065f419a22fabf567cdb9a2"
+  integrity sha512-JVUnt+DUIzu87TABbhPmNfVdBDt18BLOWjMUFJMSi/Qqg7NTYtabbvSNJGOJ7afbRuv9D/lngizHtP7QyLQ+9w==
 
 dunder-proto@^1.0.1:
   version "1.0.1"
@@ -646,6 +740,11 @@ touch@^3.1.0:
   resolved "https://dpduk-t-continuous-integration.appspot.com/touch/-/touch-3.1.1.tgz#097a23d7b161476435e5c1344a95c0f75b4a5694"
   integrity sha512-r0eojU4bI8MnHr8c5bNo7lJDdI2qXlWWJk6a9EAFG7vbhTjElYhBVS3/miuE0uOuoLdb8Mc/rVfsmm6eo5o9GA==
 
+tr46@~0.0.3:
+  version "0.0.3"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
+  integrity sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=
+
 type-is@^2.0.0, type-is@^2.0.1:
   version "2.0.1"
   resolved "https://dpduk-t-continuous-integration.appspot.com/type-is/-/type-is-2.0.1.tgz#64f6cf03f92fce4015c2b224793f6bdd4b068c97"
@@ -660,6 +759,11 @@ undefsafe@^2.0.5:
   resolved "https://dpduk-t-continuous-integration.appspot.com/undefsafe/-/undefsafe-2.0.5.tgz#38733b9327bdcd226db889fb723a6efd162e6e2c"
   integrity sha512-WxONCrssBM8TSPRqN5EmsjVrsv4A8X12J4ArBiiayv3DyyG3ZlIg6yysuuSYdZsVz3TKcTg2fd//Ujd4CHV1iA==
 
+undici-types@~7.14.0:
+  version "7.14.0"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/undici-types/-/undici-types-7.14.0.tgz#4c037b32ca4d7d62fae042174604341588bc0840"
+  integrity sha512-QQiYxHuyZ9gQUIrmPo3IA+hUl4KYk8uSA7cHrcKd/l3p1OTpZcM0Tbp9x7FAtXdAYhlasd60ncPpgu6ihG6TOA==
+
 unpipe@1.0.0:
   version "1.0.0"
   resolved "https://dpduk-t-continuous-integration.appspot.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
@@ -670,7 +774,25 @@ vary@^1.1.2:
   resolved "https://dpduk-t-continuous-integration.appspot.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
+webidl-conversions@^3.0.0:
+  version "3.0.1"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
+  integrity sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=
+
+whatwg-url@^5.0.0:
+  version "5.0.0"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
+  integrity sha1-lmRU6HZUYuN2RNNib2dCzotwll0=
+  dependencies:
+    tr46 "~0.0.3"
+    webidl-conversions "^3.0.0"
+
 wrappy@1:
   version "1.0.2"
   resolved "https://dpduk-t-continuous-integration.appspot.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
+
+ws@^8.18.2:
+  version "8.18.3"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/ws/-/ws-8.18.3.tgz#b56b88abffde62791c639170400c93dcb0c95472"
+  integrity sha512-PEIGCY5tSlUt50cqyMXfCzX+oOPqN0vuGqWzbcJ2xvnkzkq46oOpz7dQaTDBdfICb4N14+GARUDw2XV2N4tvzg==

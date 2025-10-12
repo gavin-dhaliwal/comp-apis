@@ -334,6 +334,11 @@ concat-map@0.0.1:
   resolved "https://dpduk-t-continuous-integration.appspot.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
+cookie-signature@^1.2.2:
+  version "1.2.2"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/cookie-signature/-/cookie-signature-1.2.2.tgz#57c7fc3cc293acab9fec54d73e15690ebe4a1793"
+  integrity sha512-D76uU73ulSXrD1UXF4KE2TMxVVwhsnCgfAyTg9k8P6KGZjlXKrOLe4dJQKI3Bxi5wjesZoFXJWElNWBjPZMbhg==
+
 cross-env-shell@^7.0.3:
   version "7.0.3"
   resolved "https://dpduk-t-continuous-integration.appspot.com/cross-env-shell/-/cross-env-shell-7.0.3.tgz#196dfea5093d17d78c38702195af4c6ce2b1a0ce"
