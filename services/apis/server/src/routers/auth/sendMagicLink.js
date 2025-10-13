@@ -32,14 +32,14 @@ const sendMagicLink = async (req, res) => {
     return res.status(500).send({ error: "Failed to send email" });
   }
 
-  // const { error: supabaseError } = await supabase
-  //   .from("email_verification")
-  //   .insert({ email, verification_id: verificationId });
+  const { error: supabaseError } = await supabase
+    .from("email_verification")
+    .insert({ email, verification_id: verificationId });
 
-  // if (supabaseError) {
-  //   console.error(error);
-  //   return res.status(500).send({ error: "Failed to store verification id" });
-  // }
+  if (supabaseError) {
+    console.error(error);
+    return res.status(500).send({ error: "Failed to store verification id" });
+  }
 
   return res.status(200).send({ message: "Login successful" });
 };
