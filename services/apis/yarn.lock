@@ -210,6 +210,11 @@ cookie@0.7.2, cookie@^0.7.1:
   resolved "https://dpduk-t-continuous-integration.appspot.com/cookie/-/cookie-0.7.2.tgz#556369c472a2ba910f2979891b526b3436237ed7"
   integrity sha512-yki5XnKuf750l50uGTllt6kKILY4nQ1eNIQatoXEByZ5dWgnKqbnqmTrBE5B4N7lrMJKQ2ytWMiTO2o0v6Ew/w==
 
+cross-env-shell@^7.0.3:
+  version "7.0.3"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/cross-env-shell/-/cross-env-shell-7.0.3.tgz#196dfea5093d17d78c38702195af4c6ce2b1a0ce"
+  integrity sha512-ZEtnHInQRRzuAbmMpUqu/mk1jaZun14WdcmnpzZZ6Bpi1BLTPkbKioQ6+wkFssf+m/DpdttDpsCX6g8zU9W40A==
+
 debug@^4, debug@^4.3.5, debug@^4.4.0:
   version "4.4.1"
   resolved "https://dpduk-t-continuous-integration.appspot.com/debug/-/debug-4.4.1.tgz#e5a8bc6cbc4c6cd3e64308b0693a3d4fa550189b"
@@ -600,6 +605,11 @@ readdirp@~3.6.0:
   integrity sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==
   dependencies:
     picomatch "^2.2.1"
+
+resend@^6.1.2:
+  version "6.1.2"
+  resolved "https://dpduk-t-continuous-integration.appspot.com/resend/-/resend-6.1.2.tgz#4e4718901621bf7032d4fcc428fcf8223f983794"
+  integrity sha512-C9Q+YkRe57P8MQlkHG3yatSR/B6sqBGA06Ri2DveJfkz9Vm16182FC/iHB0K6IAfmqZ4yRrFebFw1EPuktLtSg==
 
 router@^2.2.0:
   version "2.2.0"
