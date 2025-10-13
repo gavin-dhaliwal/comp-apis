@@ -41,7 +41,7 @@ const sendMagicLink = async (req, res) => {
     return res.status(500).send({ error: "Failed to store verification id" });
   }
 
-  return res.status(200).send({ message: "Login successful" });
+  return res.status(200).send({ message: "Magic link sent" });
 };
 
 module.exports = sendMagicLink;
