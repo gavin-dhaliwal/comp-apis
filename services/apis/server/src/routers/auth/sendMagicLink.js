@@ -1,5 +1,4 @@
 const { validateEmail } = require("../../helpers/vaildator");
-const { supabase } = require("../../api/supabase");
 const { encrypt } = require("../../helpers/crypto");
 const { resendClient } = require("../../api/resend");
 const { magicLinkTemplate } = require("../../templates/magicLink.template");
@@ -28,20 +27,11 @@ const sendMagicLink = async (req, res) => {
   });
 
   if (resendError) {
-    console.error(error);
+    console.error(resendError);
     return res.status(500).send({ error: "Failed to send email" });
   }
 
-  const { error: supabaseError } = await supabase
-    .from("email_verification")
-    .insert({ email, verification_id: verificationId });
-
-  if (supabaseError) {
-    console.error(error);
-    return res.status(500).send({ error: "Failed to store verification id" });
-  }
-
-  return res.status(200).send({ message: "Magic link sent" });
+  return res.status(200).send({ message: "Magic link sent", verificationId });
 };
 
 module.exports = sendMagicLink;
